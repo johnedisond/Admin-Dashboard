@@ -18,39 +18,40 @@ body {
     background-color: white;
     grid-row: 1 / 2;
     grid-column: 2 / 4;
-    margin: auto 20px;
+    margin: auto 30px;
     font-weight: 700;
 }
 
 .header-content-top svg {
     width: 24px;
     height: 24px;
-    padding: 0 10px;
-    margin: 0 10px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
 .header-content-top input {
     background-color: #e5e7eb;
-    width: 500px;
+    width: 450px;
     border-radius: 20px;
     border: none;
     padding: 8px;
     outline: none;
     margin-right: auto;
+    text-indent: 10px;
     cursor: pointer;
 }
 
 .header-content-top img {
     border-radius: 50%;
+    margin: 0 10px;
     width: 40px;
     height: 40px;
     cursor: pointer;
 }
 
 .header-content-top p {
-    margin: 0 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: 40px;
     cursor: pointer;
 }
 
@@ -65,17 +66,18 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin: 0 10px;
+    margin: 0 10px 8px 10px;
     cursor: pointer;
 }
 
 .greeting p {
     font-size: .8rem;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
-h3 {
-    margin: 0;
+h2 {
+    margin: 0 0 8px 0;
+
 }
 
 .greeting {
@@ -92,7 +94,7 @@ button {
     border: 1px solid #0284c7;
     margin: 0 10px;
     font-weight: 700;
-    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .header-content-bottom {
@@ -106,6 +108,13 @@ button {
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0ea5e9;
+    border: 1px solid #0ea5e9;
+
 }
 
 /* SIDEBAR */
@@ -168,8 +177,11 @@ h1 {
 
 }
 
+
+/* MAIN */
+
 .main {
-    background-color: blueviolet;
+    background-color: #e5e7eb;
     grid-row: span 2;
     grid-column: span 2;
 }
