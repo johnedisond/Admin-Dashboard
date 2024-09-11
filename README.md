@@ -2,7 +2,7 @@
 
 This project is based on [Project: Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) of The odin Project. </br>
 
-Live Preview [here](). </br>
+Live Preview [here](https://johnedisond.github.io/Admin-Dashboard/). </br>
 
 ![dashboard](images/proj.png) </br>
 
