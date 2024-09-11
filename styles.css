@@ -18,20 +18,20 @@ body {
     background-color: white;
     grid-row: 1 / 2;
     grid-column: 2 / 4;
-    margin: auto 30px;
+    margin: auto 50px;
     font-weight: 700;
 }
 
 .header-content-top svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
     cursor: pointer;
 }
 
 .header-content-top input {
     background-color: #e5e7eb;
-    width: 450px;
+    width: 420px;
     border-radius: 20px;
     border: none;
     padding: 8px;
@@ -66,7 +66,7 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin: 0 10px 8px 10px;
+    margin: 0 10px 8px 0;
     cursor: pointer;
 }
 
@@ -184,4 +184,120 @@ h1 {
     background-color: #e5e7eb;
     grid-row: span 2;
     grid-column: span 2;
+    padding: 15px 30px;
+    box-shadow: inset 0px 2px 10px #9ca3af;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project .card {
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 10px #9ca3af;
+}
+
+h4 {
+    font-size: .9rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+
+.card p {
+    font-size: .7rem;
+    text-align: left;
+    color: #6b7280;
+    margin: 5px 0;
+}
+
+.card-icons svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+}
+
+.card-icons {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+
+.project-cards {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.project-cards .card {
+    min-height: 100px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border-left: 8px solid #84cc16;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-right {
+    padding-left: 30px;
+    display: grid;
+}
+
+.announcements .card {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 10px #9ca3af;
+}
+
+h5,
+h6 {
+    margin: 0;
+    font-size: .7rem;
+}
+
+.announcements p {
+    font-size: .6rem;
+}
+
+hr {
+    color: #6b7280;
+}
+
+.trending img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin: 9px 0;
+}
+
+.trending .card {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #9ca3af;
+}
+
+.mini-text {
+    padding-left: 20px;
+}
+
+.mini-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
 }
